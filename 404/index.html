@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{livepage.title}} | {{project.name}}</title>
+		<link rel="stylesheet" type="text/css" href="{{venue.sdkBaseUrl}}/styles/venue-gevmetdv.css" />
+	</head>
+	<body>
+		<div class="gevme-template-container">
+			<gevme-header />
+			<main class="gevme-template-main {{#if setting.livebar.positionLeft}}livebar-left{{else}}livebar-right{{/if}}">
+				{{#if setting.livebar.enabled}}
+				{{#if setting.livebar.positionLeft}}
+				<div class="gevme-template-chat" {{#if setting.livebar.closable}}style="flex: 0 0 60px;"{{else}}style="flex: 0 0 360px;"{{/if}}>
+					<gevme-live-bar />
+				</div>
+				{{/if}}
+				{{/if}}
+				<div class="gevme-template-content" style="background-image: url('{{setting.backgroundImage}}')">
+					<div class="gevme-404-container">
+						<img src="{{global.baseUrl}}/assets/404-icon.svg" alt="404" class="gevme-404-logo" />
+						<h1 class="gevme-404-title">404</h1>
+						<h1 class="gevme-404-description">Sorry, we cannot find the page you are looking for.</h1>
+					</div>
+				</div>
+				{{#if setting.livebar.enabled}}
+				{{#if setting.livebar.positionRight}}
+				<div class="gevme-template-chat" {{#if setting.livebar.closable}}style="flex: 0 0 60px;"{{else}}style="flex: 0 0 360px;"{{/if}}>
+					<gevme-live-bar />
+				</div>
+				{{/if}}
+				{{/if}}
+			</main>
+		</div>
+		<script src="{{venue.sdkBaseUrl}}/scripts/venue-gevmetdv.js"></script>
+	</body>
+</html>

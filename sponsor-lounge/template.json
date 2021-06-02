@@ -1,0 +1,126 @@
+{
+	"widgets": {
+		"hide": {
+			"SPONSOR": false
+			, "MANAGER": false
+		}
+		, "enabledWidgets": "*"
+	}
+	, "blocks": {
+		"preventAdd": true
+		, "enabledBlocks": "*"
+		, "predefinedBlocks": {
+			"panel1": {
+				"type": "Link"
+				, "title": "Panel1"
+				, "allowChangeType": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventBlockSettings": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventEdit": {
+					"SPONSOR": false
+					, "MANAGER": false
+				}
+				, "preventDelete": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "data": {
+					"heading": "Panel1"
+					, "headingVisibility": false
+					, "headingAlignment": "center"
+					, "autoScrollEnabled": false
+					, "autoScrollTimeInterval": null
+					, "enableLink": true
+					, "link": "https://www.marinabaysands.com"
+					, "openInNewWindow": true
+					, "backgroundCoverImage": "https://venues.gevme.com/c8d2767b-e553-4949-b722-2e8494e09ee4/plenary-room/media/Plenary_Panel_1_image.png"
+					, "order": 1
+					, "blockWidth": "100%"
+					, "blockHeight": "100%"
+					, "fitHeightToContent": false
+					, "boundingBox": false
+					, "contentPadding": "0px"
+				}
+			}
+			, "panel2": {
+				"type": "Link"
+				, "title": "Panel2"
+				, "allowChangeType": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventBlockSettings": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventEdit": {
+					"SPONSOR": false
+					, "MANAGER": false
+				}
+				, "preventDelete": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "data": {
+					"heading": "Panel2"
+					, "headingVisibility": false
+					, "headingAlignment": "center"
+					, "autoScrollEnabled": false
+					, "autoScrollTimeInterval": null
+					, "enableLink": true
+					, "link": "https://www.marinabaysands.com/expo-events-and-convention-centre.html"
+					, "openInNewWindow": true
+					, "backgroundCoverImage": "https://venues.gevme.com/c8d2767b-e553-4949-b722-2e8494e09ee4/plenary-room/media/Plenary_Panel_2_image.png"
+					, "order": 2
+					, "blockWidth": "100%"
+					, "blockHeight": "100%"
+					, "fitHeightToContent": false
+					, "boundingBox": false
+					, "contentPadding": "0px"
+				}
+			}
+			, "panel3": {
+				"type": "Link"
+				, "title": "Panel3"
+				, "allowChangeType": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventBlockSettings": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "preventEdit": {
+					"SPONSOR": false
+					, "MANAGER": false
+				}
+				, "preventDelete": {
+					"SPONSOR": true
+					, "MANAGER": true
+				}
+				, "data": {
+					"heading": "Panel3"
+					, "headingVisibility": false
+					, "headingAlignment": "center"
+					, "autoScrollEnabled": false
+					, "autoScrollTimeInterval": null
+					, "enableLink": true
+					, "link": "https://www.marinabaysands.com/museum.html"
+					, "openInNewWindow": true
+					, "backgroundCoverImage": "https://venues.gevme.com/c8d2767b-e553-4949-b722-2e8494e09ee4/plenary-room/media/Plenary_Panel_3_image.png"
+					, "order": 3
+					, "blockWidth": "100%"
+					, "blockHeight": "100%"
+					, "fitHeightToContent": false
+					, "boundingBox": false
+					, "contentPadding": "0px"
+				}
+			}
+		}
+	}
+}

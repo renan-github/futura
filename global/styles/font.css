@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Permanent Marker';
+	src: url('https://venues-sdk.gevme.com/fonts/permanent_marker/PermanentMarker-Regular.eot');
+	src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'),
+		url('https://venues-sdk.gevme.com/fonts/permanent_marker/PermanentMarker-Regular.eot?#iefix') format('embedded-opentype'),
+		url('https://venues-sdk.gevme.com/fonts/permanent_marker/PermanentMarker-Regular.woff2') format('woff2'),
+		url('https://venues-sdk.gevme.com/fonts/permanent_marker/PermanentMarker-Regular.woff') format('woff'),
+		url('https://venues-sdk.gevme.com/fonts/permanent_marker/PermanentMarker-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

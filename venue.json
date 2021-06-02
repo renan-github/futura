@@ -1,0 +1,83 @@
+{
+  "name": "Red Rock",
+	"description": "A repurposed underground venue with a futuristic dark theme, with touches of tech, graffiti, containers and neon lights. Ideal for conferences, seminars or meetings, with breakouts as options, as well as an exhibition component.",
+  "version": "1.0.0",
+  "author": "GSI",
+  "keyword": "1-Day, Multi-Track, Conference, Seminar, Meeting, Breakout",
+	"features": "1. 3 templates: Home Hosted Rooms Main Stage Serendipity Rooms Blank Login 404, Custom menu, Live stream, Chat, Direct message, Participants list, Speakers and agenda, Content blocks, Notifications, Responsive template, Light and dark mode, Exhibition",
+  "defaultMenus": [{
+    "name": "HeaderMenu",
+    "items": [{
+      "name": "LOBBY",
+      "link": "lobby",
+      "openInNewWindow": false
+    }, {
+      "name": "ABOUT SEMI",
+      "link": "about-semi",
+      "openInNewWindow": false
+    }, {
+      "name": "EXHIBITION HALL",
+      "link": "exhibition-hall",
+      "openInNewWindow": false
+		}, {
+			"name": "CONFERENCE",
+			"link": "conference",
+			"openInNewWindow": false
+		}, {
+			"name": "NETWORKING LOUNGE",
+			"link": "networking-lounge",
+			"openInNewWindow": false
+		}, {
+			"name": "LEADERBOARD",
+			"link": "leaderboard",
+			"openInNewWindow": false
+		}, {
+			"name": "BUSINESS MATCHING",
+			"link": "business-matching",
+			"openInNewWindow": false
+		}]
+  }],
+  "defaultLivepages": [{
+		"slug": "lobby",
+		"title": "LOBBY",
+    "isPublic": false,
+    "template": "home"
+  },
+  {
+		"slug": "about-semi",
+		"title": "ABOUT SEMI",
+   "isPublic": false,
+		"template": "main-stage"
+	},
+	 {
+		 "slug": "exhibition-hall",
+		 "title": "EXHIBITION HALL",
+		 "isPublic": false,
+		 "template": "hosted-rooms"
+	 },
+	 {
+		 "slug": "conference",
+		 "title": "CONFERENCE",
+		 "isPublic": false,
+		 "template": "serendipity-rooms"
+	 },
+ {
+	 "slug": "networking-lounge",
+	 "title": "NETWORKING LOUNGE",
+	 "isPublic": false,
+	 "template": "blank"
+ },
+	 {
+		 "slug": "leaderboard",
+		 "title": "LEADERBOARD",
+		 "isPublic": false,
+		 "template": "blank"
+	 },
+	{
+		"slug": "business-matching",
+		"title": "BUSINESS MATCHING",
+	 "isPublic": false,
+	 "template": "blank"
+	}
+  ]
+}
